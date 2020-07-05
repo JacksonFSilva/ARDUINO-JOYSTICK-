@@ -5,8 +5,11 @@ In this project I've used external 4.7k ohms resistors but you can you use the b
 I've used port manipulartion to programm the port registers in this code because it's way faster than the digitalRead /Write functions. 
 
 The three registers are DDR, PORT, and PIN.
+
 {DDR}  Determines whether the pin is INPUT (0) or OUTPUT (1).
+
 {PORT} Controls whether the pin is HIGH (1) or LOW (0) (Use this register if you want to use the built in resistor of your board to configure your input port as an input_pullup port.)
+
 {PIN}  Reads the state of INPUT pins.
 
 
