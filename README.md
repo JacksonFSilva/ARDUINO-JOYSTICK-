@@ -6,6 +6,7 @@ I've used port manipulartion to programm the port registers in this code because
 
 The three registers are DDR, PORT, and PIN.
 
+
 {DDR}  Determines whether the pin is INPUT (0) or OUTPUT (1).
 
 {PORT} Controls whether the pin is HIGH (1) or LOW (0) (Use this register if you want to use the built in resistor of your board to configure your input port as an input_pullup port.)
@@ -14,5 +15,6 @@ The three registers are DDR, PORT, and PIN.
 
 
 Library used in this project (this library only work with AtMega32u4 Arduino boards): https://github.com/MHeironimus/ArduinoJoystickLibrary
+
 Arduino diagram: https://www.robot-italy.com/en/blog/progetti/450
 
